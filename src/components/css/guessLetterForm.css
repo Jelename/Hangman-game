@@ -1,0 +1,32 @@
+#form {
+  font-size: 30px;
+}
+
+#user-input {
+  background-color: #fff;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  text-align: center;
+  border-radius:6px;
+  padding: 16px 0;
+  color: #136955;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  margin: 20px 20px 0px 10px;
+}
+
+#submit {
+  background-color: #136955;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius:6px;
+  padding: 16px 32px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+  margin-top: 20px;
+}

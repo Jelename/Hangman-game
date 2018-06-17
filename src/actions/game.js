@@ -1,4 +1,3 @@
-//actions/game.js
 import { randomWord } from '../lib/game'
 
 export const NEW_GAME = 'NEW_GAME'

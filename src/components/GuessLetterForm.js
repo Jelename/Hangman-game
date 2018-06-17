@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { makeGuess } from '../actions/game'
 import { connect } from 'react-redux'
-import './guessLetterForm.css'
+import './css/guessLetterForm.css'
 
 class GuessLetterForm extends React.PureComponent {
 
@@ -15,9 +15,9 @@ class GuessLetterForm extends React.PureComponent {
   render() {
     return (
       <div>
-      <form onSubmit={this.handleSubmit} className="form">
-        Make your guess: <input type="text"/>
-        <input type="submit" value="Submit" />
+      <form onSubmit={this.handleSubmit} id="form">
+        Make your guess: <input type="text" id="user-input"/>
+        <input type="submit" value="Submit" id="submit"/>
       </form>
     </div>
   )

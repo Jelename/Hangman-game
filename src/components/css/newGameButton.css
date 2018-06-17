@@ -1,0 +1,21 @@
+.btn {
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+      background-color: #e0ffff;
+      color: #5f9ea0;
+ }

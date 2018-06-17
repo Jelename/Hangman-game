@@ -1,5 +1,3 @@
-//reducers/guessedLetters
-
 import { NEW_GAME, MAKE_GUESS } from '../actions/game'
 
 export default (state = [], action = {}) => {

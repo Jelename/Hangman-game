@@ -1,5 +1,3 @@
-//reducers/wordToGuess
-
 import { randomWord } from '../lib/game'
 import { NEW_GAME } from '../actions/game'
 

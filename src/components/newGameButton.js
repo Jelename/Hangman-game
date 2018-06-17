@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { newGame } from '../actions/game'
 import { connect } from 'react-redux'
-import './newGameButton.css'
+import './css/newGameButton.css'
 
 class NewGameButton extends React.PureComponent {
   handleClick = () => {

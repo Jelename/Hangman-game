@@ -1,0 +1,26 @@
+.title {
+  font-size: 64px;
+  margin-top: 70px;
+}
+
+.word_to_guess {
+  font-size: 48px;
+}
+
+.loser, .winner {
+  font-size: 50px;
+  color: #fffacd;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h5 {
+  font-size: 24px;
+  padding-top: 20px;
+  font-weight: normal;
+  color: #e8eaee;
+}
+
+#wrong-guess {
+  font-size: 40px;
+}
