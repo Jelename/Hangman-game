@@ -8,17 +8,16 @@ export function newGame() {
   return {
     type: NEW_GAME,
     payload: {
-      word: randomWord(),
-      allGuesses: []
+      word: randomWord()
     }
   }
 }
 
-export function makeGuess() {
+export function makeGuess(guessedLetter) {
   return {
     type: MAKE_GUESS,
     payload: {
-      letterGuessed: []
+      guessedLetter
     }
   }
 }
