@@ -4,9 +4,9 @@ import { connect } from 'react-redux'
 
 class GuessLetterForm extends React.PureComponent {
 
-  handleSubmit = (event) => {
-    if(event) event.preventDefault();
-    const [input] = event.target.children
+  handleSubmit = (e) => {
+    e.preventDefault();
+    const [input] = e.target.children
     this.props.makeGuess(input.value)
     input.value = ""
   }

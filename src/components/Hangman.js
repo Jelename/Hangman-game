@@ -7,13 +7,16 @@ import GuessLetterForm from './GuessLetterForm'
 class Hangman extends React.PureComponent {
   render() {
     const showGuess = game.showGuess(this.props.wordToGuess, this.props.guessed);
-    console.log(this.props.wordToGuess)
+    //console.log(this.props.wordToGuess)
+    const wrongGuessCount = game.wrongGuessCount(this.props.wordToGuess, this.props.guessed)
 
     return (
-      <div id="screen">
+      <div id="hangman-game">
         <h3>Guess the word:</h3>
         <p>{showGuess}</p>
         <GuessLetterForm />
+        <h5>Number of wrong guesses:</h5>
+        <p>{wrongGuessCount}</p>
       </div>
     )
   }
