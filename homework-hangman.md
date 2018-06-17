@@ -11,14 +11,11 @@ These are the requirements for your application on which you will be scored.
 2. When the webapp is loaded and the path is `/`, it should show an initial page with a welcome message and a link "Start playing!". The link links to `/hangman`. Clicking it should change the route to `/hangman`, where the rest of the game is played. This should be done using react-router, the page should not reload.
 3. When a game starts, a random word should be selected using the game library function `randomWord`. This will be the word the player has to guess.
 4. There should be a module in the file `src/actions/game.js` which exports two action creators. One should be called `newGame`, which creates an action of type `NEW_GAME`. The other action creator should be called `makeGuess`, and its actions should have the type `MAKE_GUESS`.
-
-
 5. The reducers should not modify the state. The functions should create copies of objects and arrays before changing them. They should be pure functions.
 6. The letters of the word should initially be displayed as _underscores_ and as the player makes correct guesses, the letters should appear. You can use the function `showGuess` from the game library.
 7. The user must be able to guess one letter at a time by dispatching the `MAKE_GUESS` action. Which UI elements you use to do this is up to you.
     !  Hint: you could use a button per letter, or a text input element.
 8. The number of incorrect guesses should be displayed on the page. Use the `wrongGuessCount` function in the library.
-
 9. There should be a button to create a new game. When you click it, an action of type `NEW_GAME` should be dispatched. The result should be that a new random word is selected and the guesses are reset/emptied.
 10. When the user has won or lost, there should be a message on the page saying so. _Use the functions in the provided library._
 

@@ -8,7 +8,8 @@ export function newGame() {
   return {
     type: NEW_GAME,
     payload: {
-      word: randomWord()
+      word: randomWord(),
+      guessedLetters: []
     }
   }
 }
