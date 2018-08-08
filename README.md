@@ -6,3 +6,7 @@ Like a classic hangman game, player has to guess the secret word. He has 6 times
 Player can start a new game at any time by clicking on a New Game button. 
 
 This project is done with React & Redux.
+
+![example](https://gph.is/2vutcpn)
+
+
