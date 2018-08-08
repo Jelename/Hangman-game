@@ -7,6 +7,6 @@ Player can start a new game at any time by clicking on a New Game button.
 
 This project is done with React & Redux.
 
-![example](https://media.giphy.com/media/YW1vn0PRx9vXrEMj8M/giphy.gif)
+![example](https://media.giphy.com/media/1r8VmmbcecOlTrJzrc/giphy.gif)
 
 
