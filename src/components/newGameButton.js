@@ -7,7 +7,7 @@ class NewGameButton extends React.PureComponent {
   handleClick = () => {
     this.props.newGame()
   }
-
+  
   render() {
     return (
       <button onClick={this.handleClick} className='btn'>Start new game</button>
