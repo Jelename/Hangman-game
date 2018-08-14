@@ -7,7 +7,7 @@ Player can start a new game at any time by clicking on a New Game button.
 
 This project is done with React & Redux.
 
-Play: https://fast-taiga-47947.herokuapp.com/hangman
+Play: https://hangman-react-game.herokuapp.com/
 
 ![example](https://media.giphy.com/media/1r8VmmbcecOlTrJzrc/giphy.gif)
 
