@@ -7,7 +7,7 @@ class GuessLetterForm extends React.PureComponent {
 
   handleSubmit = (e) => {
     e.preventDefault()
-    const [input] = e.target.children
+    const [input] = e.target.children//check this one why children (he used e.target.value)
     this.props.makeGuess(input.value)
     input.value = ""
   }
